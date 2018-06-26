@@ -1,0 +1,52 @@
+# Polymorphism & Composition Homework - Quiz
+
+# Polymorphism
+
+1. What does the ___word___ 'polymorphism' mean?
+
+The word "polymorphism" comes from the Greek words "poly", meaning many, & "morph", meaning shape. Polymorphism therefore means "many shapes".
+
+
+2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+
+When polymorphism is applied to 00 design it means allowing a class to act like another class. For example, in Java, we could have multiple types of vehicle (car, motorcycle, train) that are all children classes of the class Vehicle. The Polymorphism would allow all the child classes to act as Vehicles, therefore allowing all the child classes to implement the methods of the Vehicle class (like a move method for example).
+
+
+3. What can we use to implement polymorphism in Java?
+
+Usually an interface is used to implement polymorphism or a Java class.
+
+
+4. How many 'forms' can an object take when using polymorphism?
+
+An object using Polymorphism can be itself, its parent class or any one of a number of interfaces implemented by the object.
+
+
+5. Give an example of when you could use polymorphism.
+
+An example of polymorphism use could be a theme park; which would have both attractions & stalls. With polymorphism the theme park could have a single ArrayList of everything the theme park has (attraction & stalls) as long as all of them implement the same interface (ITicket for example could be for selling tickets).
+
+
+
+# Composition
+
+6. What do we mean by 'composition' in reference to object-oriented programming?
+
+Composition refers to objects being made of smaller objects in object-oriented programming.
+
+
+7. When would you use composition? Provide a simple example in Java.
+
+You use composition when you create a class with methods which uses smaller classes that together achieve the functionality desired. An example would be a kitchen which contains a stove, an oven & a blender, each of these classes would have functions that together would allow the kitchen to cook a meal.
+
+
+8. What is/are the advantage(s) of using composition?
+
+The advantages are:
+  1) no repetition of code as it allows a class to use the methods contained in the classes it contains.
+  2)in java composition allows the class to effectively inherit from multiple classes
+
+
+9. What happens to the behaviours when the object composed of them is destroyed?
+
+All behaviours are removed when the object is deleted.
